@@ -1,6 +1,6 @@
 import pandas as pd
 
-from services.ai_service import ask_ollama
+from services.ai_service import ask_groq
 
 
 def answer_question(
@@ -50,4 +50,4 @@ DATASET:
 Answer the question directly.
 """
 
-    return ask_ollama(prompt)
+    return ask_groq(prompt)
